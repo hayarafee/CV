@@ -1,0 +1,48 @@
+<div class="main">
+    <div class="section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-danger">
+                        <img src="assets/img/book.png" alt="work">
+                    </div>
+                </div>
+            </div>
+                    <div class="col-md-3">
+                        <div class="info">
+                            <div class="icon icon-danger">
+                                <img src="assets/img/work.png" alt="work">
+                            </div>
+                        </div>
+                    </div>
+                            <div class="col-md-3">
+                                <div class="info">
+                                    <div class="icon icon-danger">
+                                        <img src="assets/img/skill.png" alt="work">
+                                    </div>
+                                </div>
+                            </div>
+                                    <div class="col-md-3">
+                                        <div class="info">
+                                            <div class="icon icon-danger">
+                                                <img src="assets/img/global.png" alt="work">
+                                            </div>
+                                        </div>
+                                     </div>
+                    </div>
+        <div class="row">
+            <div *ngFor="let title of infos" class="col-md-3">
+                <div class="info">
+                    <div class="description">
+                        <h4 style="color:orangered" class="info-title">{{title.name}}</h4>
+                        <p>{{title.paragrafOne}}</p><br/><br/>
+                        <p class="description">{{title.paragrafTwo}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                         </div>
+                        </div>
+                    </div>
+                    
